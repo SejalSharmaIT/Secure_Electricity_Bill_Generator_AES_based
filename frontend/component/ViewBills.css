@@ -1,0 +1,126 @@
+/* =======================
+   General Page Styling
+   ======================= */
+.view-bills-container {
+  padding: 30px;
+  background-color: #0f1b33;
+  min-height: 100vh;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.view-bills-title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #4da3ff;
+}
+
+.update-message {
+  text-align: center;
+  color: #00ff7f;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* =======================
+   Table Styling
+   ======================= */
+.bills-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.bills-table th,
+.bills-table td {
+  border: 1px solid #1f2d50;
+  padding: 12px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.bills-table th {
+  background-color: #1d2945;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.bills-table tr:nth-child(even) {
+  background-color: #14213d;
+}
+
+.bills-table tr:nth-child(odd) {
+  background-color: #0f1b33;
+}
+
+/* =======================
+   Status Colors
+   ======================= */
+.status-paid {
+  color: #00ff88;
+  font-weight: bold;
+}
+
+.status-unpaid {
+  color: #ff4d4d;
+  font-weight: bold;
+}
+
+/* =======================
+   Buttons
+   ======================= */
+.pay-btn {
+  background-color: #1e90ff;
+  border: none;
+  padding: 8px 14px;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.pay-btn:hover {
+  background-color: #007bff;
+}
+
+.disabled-check {
+  font-size: 20px;
+  color: #00ff88;
+}
+
+/* =======================
+   Back Button
+   ======================= */
+.back-btn {
+  margin-top: 25px;
+  padding: 10px 18px;
+  background-color: #1e90ff;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  display: inline-block;
+  font-size: 16px;
+  transition: 0.2s;
+}
+
+.back-btn:hover {
+  background-color: #007bff;
+}
+
+.pay-btn {
+  padding: 6px 15px;
+  background: dodgerblue;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.pay-btn:hover {
+  background: rgb(30, 100, 200);
+}
+
